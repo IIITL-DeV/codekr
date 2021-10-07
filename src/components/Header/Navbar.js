@@ -93,7 +93,7 @@ if(creds){
               <NavLink style={{color: 'white'}} href="/contest">Contests</NavLink>
             </NavItem> */}
 
-            <UncontrolledDropdown nav inNavbar>
+            {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret style={{color: 'white'}}>
                 Upsolve
               </DropdownToggle>
@@ -111,7 +111,7 @@ if(creds){
                 
                 
               </DropdownMenu>
-            </UncontrolledDropdown>
+            </UncontrolledDropdown> */}
 
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret style={{color: 'white'}}>
@@ -177,7 +177,7 @@ if(creds){
               </DropdownMenu>
             </UncontrolledDropdown> */}
             
-            <UncontrolledDropdown nav inNavbar>
+            {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret style={{color: 'white'}}>
                 Upsolve
               </DropdownToggle>
@@ -195,7 +195,7 @@ if(creds){
                 
                 
               </DropdownMenu>
-            </UncontrolledDropdown>
+            </UncontrolledDropdown> */}
 
             
 

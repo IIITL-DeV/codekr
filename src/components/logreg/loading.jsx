@@ -12,7 +12,7 @@ const Loading=()=>{
     <path className="gt" d="M 250 50 L 300 100 L 250 150"></path>
   </svg>
 
-  <span className="loading" data-name="Loading">CODEDIGGER</span>
+  <span className="loading" data-name="Loading">code-kr...</span>
 </div>
     )
 }
