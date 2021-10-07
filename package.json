@@ -1,0 +1,90 @@
+{
+  "name": "codedigger",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@carbon/icons-react": "^10.34.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "and": "0.0.3",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "bootstrap-social": "^5.1.1",
+    "classnames": "^2.3.1",
+    "css-loader": "^5.2.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1",
+    "npm": "^7.24.2",
+    "query-string": "^6.14.1",
+    "react": "^16.14.0",
+    "react-addons-update": "^15.6.3",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-slider": "^3.0.0",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.14.0",
+    "react-google-login": "^5.2.2",
+    "react-iframe": "^1.8.0",
+    "react-multi-carousel": "^2.6.2",
+    "react-popup": "^0.10.0",
+    "react-responsive-carousel": "^3.2.18",
+    "react-reveal": "^1.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-scroll-to": "^3.0.0-beta.6",
+    "react-slick": "^0.27.14",
+    "react-toggle-button": "^2.2.0",
+    "react-tooltip": "^4.2.17",
+    "react-typewriting-effect": "^1.0.4",
+    "react-visibility-sensor": "^5.1.1",
+    "reactjs-popup": "^2.0.4",
+    "reactjs-typing-effect": "^1.0.8",
+    "reactstrap": "^8.9.0",
+    "slick-carousel": "^1.8.1",
+    "start": "^5.1.0",
+    "typewriter-effect": "^2.17.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "pretty": "npx prettier --write \"./**/*.{js,jsx,json,css}\"",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy-production": "react-scripts build && scp -r ./build/* root@142.93.210.55:/var/www/Frontend/html"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
