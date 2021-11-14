@@ -5,6 +5,7 @@ import "./LaddersLevel.css";
 import LaddersContent from '../../components/LaddersContent';
 import FooterSmall from '../../components/Footer/FooterSmall';
 import ErrorPage from '../ErrorPage/ErrorPage.js';
+import { CenterCircle16 } from '@carbon/icons-react';
 
 
 function LaddersLevel(props) {
@@ -89,7 +90,10 @@ function LaddersLevel(props) {
                             {/* {console.log(dat)} */}
                         <Header />
                         
+                        
                         <div className="container ladders_ques" style={{marginTop: '80px', marginBottom: '100px'}}>
+                        <br/>
+                        <h3 className="track-name">{props.wise=="topicwise"?"Placement Track":"CP Track"} </h3>  
                         <br/>
             
                         {/* {console.log(dat[0])} */}

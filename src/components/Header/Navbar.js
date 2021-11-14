@@ -67,7 +67,7 @@ if(creds){
                 <NavLink className="dropdown_link" href="/topicwise/practice">Placement Track</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                <NavLink className="dropdown_link" href="/levelwise/practice">CP TRack</NavLink>
+                <NavLink className="dropdown_link" href="/levelwise/practice">CP Track</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
@@ -118,9 +118,14 @@ if(creds){
                  Hello, {creds.username}
               </DropdownToggle>
               <DropdownMenu left className="dropdown_background">
-                {/* <DropdownItem>
+                <DropdownItem>
                 <NavLink className="dropdown_link" href={handle}>Profile</NavLink>
-                </DropdownItem> */}
+                </DropdownItem>
+
+                <DropdownItem>
+                <NavLink className="dropdown_link" href="/updateProfile">Edit Profile</NavLink>
+                </DropdownItem>
+
                 <DropdownItem>
                 <NavLink className="dropdown_link" onClick={deleteCred}>Log Out</NavLink>
                 </DropdownItem>

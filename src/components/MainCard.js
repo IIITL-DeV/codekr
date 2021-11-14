@@ -101,14 +101,14 @@ const MainCard = (props) => {
         <>
         <div className={props.last ? "cardLast card unsolvedCard":"card unsolvedCard"}>
         <h3 className="title">{props.ProblemData.name}</h3>
-        <span><OverlayTrigger
+        {/*<span><OverlayTrigger
             placement="top"
             overlay={renderTooltip1}
           >
             <span onClick={toggle} ><FontAwesomeIcon style={{cursor:"pointer"}} icon={faFolderPlus} /></span>
-          </OverlayTrigger></span>
+        </OverlayTrigger></span>*/}
           <Modal isOpen={modal} toggle={toggle}>
-        <ModalHeader toggle={toggle}>Add to Problem List</ModalHeader>
+        {/*<ModalHeader toggle={toggle}>Add to Problem List</ModalHeader>*/}
         <ModalBody>
         </ModalBody>
           <ul>
@@ -170,7 +170,7 @@ const MainCard = (props) => {
           </OverlayTrigger></span>}
           {/* {console.log(creds.access)} */}
         <Modal isOpen={modal} toggle={creds.access? toggle:null}>
-        <ModalHeader toggle={toggle}>Add to Problem List</ModalHeader>
+        {/*<ModalHeader toggle={toggle}>Add to Problem List</ModalHeader>*/}
         <ModalBody>
         </ModalBody>
           <ul>
@@ -296,13 +296,13 @@ const MainCard = (props) => {
         return(
           <>
         <div className={props.last ? "cardLast card":"card"}>
-        <h3 className="title">{props.ProblemData.name}</h3>
-        <span><OverlayTrigger
+        <h3 className="title">{props.ProblemData.name}</h3> <br></br>
+        {/*<span><OverlayTrigger
             placement="top"
             overlay={renderTooltip1}
           >
-            <span onClick={toggle} ><FontAwesomeIcon style={{cursor:"pointer"}} icon={faFolderPlus} /></span>
-          </OverlayTrigger></span>
+          <span onClick={toggle} ><FontAwesomeIcon style={{cursor:"pointer"}} icon={faFolderPlus} /></span>
+        </OverlayTrigger></span>*/}
           <Modal isOpen={modal} toggle={toggle}>
         <ModalHeader toggle={toggle}>Add to Problem List</ModalHeader>
         <ModalBody>

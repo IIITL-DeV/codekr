@@ -252,7 +252,7 @@ switchers.forEach((item) => {
         <button onClick={Login} type="submit" className="btn-login">{loaderL?'Processing..':'Login'}</button>
         {loaderL?<Spinner className="loading-animation" animation="border"/>:<></>}
         <div className="loginops">
-    <img style={{width:'35px',height:'35px','margin-top':'4px'}} src={GoogleIcon}></img>
+    {/*<img style={{width:'35px',height:'35px','margin-top':'4px'}} src={GoogleIcon}></img>
       <GoogleLogin 
         clientId={process.env.REACT_APP_CLIENTID}
         buttonText="Login with Google"
@@ -260,8 +260,8 @@ switchers.forEach((item) => {
        //onFailure={handleGoogleFail}
         cookiePolicy={"single_host_origin"}
         icon={false}
-        /></div><br></br>
-        <div style={{'display':'block','text-align':'center','font-size':'16px'}}><a href='/ForgPass'>Forgot Password ?</a></div>
+      />*/}</div>
+      {/*<div style={{'display':'block','text-align':'center','font-size':'16px'}}><a href='/ForgPass'>Forgot Password ?</a></div>*/}
          </form>
      
             
